@@ -3,8 +3,8 @@ library(lubridate)
 
 # -----------------------------------------------------------------------
 # Load the cleaned datasets for house pricing and crime rates in Bristol and Cornwall
-bristolHousePrice <- read_csv("/Users/bijayagiri/Downloads/clean_source_data/house pricing/bristol-house-pricing.csv")
-cornwallHousePrice <- read_csv("/Users/bijayagiri/Downloads/clean_source_data/house pricing/cornwall-house-pricing.csv")
+bristolHousePrice <- read_csv("/Users/bijayagiri/Downloads/clean_source_data/house_pricing/bristol-house-pricing.csv")
+cornwallHousePrice <- read_csv("/Users/bijayagiri/Downloads/clean_source_data/house_pricing/cornwall-house-pricing.csv")
 
 bristolCrimeRate <- read_csv("/Users/bijayagiri/Downloads/clean_source_data/Crime_Rate/bristol-crime-rate.csv")
 cornwallCrimeRate <- read_csv("/Users/bijayagiri/Downloads/clean_source_data/Crime_Rate/cornwall-crime-rate.csv")

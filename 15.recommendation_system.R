@@ -70,6 +70,7 @@ combined_data_with_scores = calculate_final_score(combined_data)
 top_recommendations = combined_data_with_scores %>%
   arrange(desc(final_score)) %>%
   select(Txn_ID, Postcode, PAON, Street, Town, Locality, County, final_score,) %>%
+  distinct(Town, .keep_all = TRUE) %>%
   head(10)
 
 # Save the combined data with scores and top recommendations to CSV files
